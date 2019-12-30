@@ -1,0 +1,10 @@
+namespace Hello;
+
+table Message {
+    id:string;
+    timestamp:int32;
+    type:string;
+    data:[ubyte];
+}
+
+root_type Message;

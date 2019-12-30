@@ -1,0 +1,27 @@
+{
+  "name": "@leo/hello-flatbuffers",
+  "version": "0.0.0",
+  "description": "example for flatbuffers",
+  "scripts": {
+    "flatc": "bash -c \"./bin/flatc --ts --no-fb-import -o ./lib ./lib/*.fbs\"",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo721120/hello-flatbuffers.git"
+  },
+  "author": "leojan@alum.ccu.edu.tw",
+  "license": "LICENSED",
+  "bugs": {
+    "url": "https://github.com/leo721120/hello-flatbuffers/issues"
+  },
+  "homepage": "https://github.com/leo721120/hello-flatbuffers#readme",
+  "dependencies": {
+    "flatbuffers": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/flatbuffers": "^1.9.1",
+    "@types/node": "^13.1.1",
+    "typescript": "^3.7.4"
+  }
+}
